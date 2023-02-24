@@ -9,26 +9,29 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputUsername () {
-        return $('#username');
+    get inputEmail () {
+        return $('#email');
     }
 
     get inputPassword () {
         return $('#password');
     }
 
-    get btnSubmit () {
-        return $('button[type="submit"]');
+    get btnSubmitLogin () {
+        return $('#root > div > div > div > div.css-1w7v3tn > div > button');
     }
 
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async login (username, password) {
-        await this.inputUsername.setValue(username);
+    async login (email, password) {
+        await this.inputEmail.setValue(email);
         await this.inputPassword.setValue(password);
-        await this.btnSubmit.click();
+    }
+
+    async clickButtonLogin () {
+        await this.btnSubmitLogin.click();
     }
 
     /**
