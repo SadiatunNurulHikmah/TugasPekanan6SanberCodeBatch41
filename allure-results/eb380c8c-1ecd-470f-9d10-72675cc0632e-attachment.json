@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href=\"/purchases\"] > .css-ewi1jp > .css-1xhj18k > .css-1mqa38q\"}\n  (Session info: chrome=110.0.5481.105)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x004C37D3]\n\t(No symbol) [0x00458B81]\n\t(No symbol) [0x0035B36D]\n\t(No symbol) [0x0038D382]\n\t(No symbol) [0x0038D4BB]\n\t(No symbol) [0x003C3302]\n\t(No symbol) [0x003AB464]\n\t(No symbol) [0x003C1215]\n\t(No symbol) [0x003AB216]\n\t(No symbol) [0x00380D97]\n\t(No symbol) [0x0038253D]\n\tGetHandleVerifier [0x0073ABF2+2510930]\n\tGetHandleVerifier [0x00768EC1+2700065]\n\tGetHandleVerifier [0x0076C86C+2714828]\n\tGetHandleVerifier [0x00573480+645344]\n\t(No symbol) [0x00460FD2]\n\t(No symbol) [0x00466C68]\n\t(No symbol) [0x00466D4B]\n\t(No symbol) [0x00470D6B]\n\tBaseThreadInitThunk [0x75367D69+25]\n\tRtlInitializeExceptionChain [0x7768BB9B+107]\n\tRtlClearBits [0x7768BB1F+191]\n"
+}

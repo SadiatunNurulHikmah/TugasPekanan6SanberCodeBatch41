@@ -16,7 +16,7 @@ class PurchasesDetailPage extends Page {
     }
 
     get assertNoInvoice () {
-        return $('#no\.\ invoice');
+        return $('//*[@id="no. invoice"]');
     }
 
     get assertNote () {
